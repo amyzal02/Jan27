@@ -1,6 +1,18 @@
-public abstract class Operations{
+public abstract class Operations {
 
-    public int operate(int a, int b);
-    public void print();
+    public int a; 
+    public int b; 
+
+   public Operations(int a, int b){
+        this.a = a; 
+        this.b = b; 
+    }
+
+    public abstract int operate();
+
+    public void print(){
+        System.out.println("The end product is.... " + operate());
+    
+    }
 
 }
