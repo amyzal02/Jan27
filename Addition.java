@@ -9,7 +9,7 @@ public class Addition extends Operations{
     }
 
     public void print(){
-        System.out.println("You chose Addition");
+        System.out.println("\nYou chose Addition");
         super.print();
     }
 }

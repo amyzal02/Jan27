@@ -11,7 +11,7 @@ public abstract class Operations {
     public abstract int operate();
 
     public void print(){
-        System.out.println("The end product is.... " + operate());
+        System.out.println("The end product of " +  a + " and " + b + " is.... " + operate());
     
     }
 
